@@ -1,0 +1,124 @@
+
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10;
+    padding: 12px;
+}
+
+.popular h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.popular hr{
+    width: 500px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.popular-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.product{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    padding: 2px;
+}
+
+@media (max-width:992px) {
+    .popular{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        padding: 12px;        
+       
+    }
+    .popular h1{
+        color: #171717;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .popular hr{
+        width: 400px;
+        height: 5px;
+        border-radius: 10px;
+        background: #252525;
+    } 
+  
+
+}
+
+@media (min-width:768px) {
+    .popular{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        padding: 12px;
+       
+    } 
+    .popular h1{
+        color: #171717;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .popular hr{
+        width: 300px;
+        height: 4px;
+        border-radius: 10px;
+        background: #252525;
+    }
+
+
+}
+@media (min-width:480px) {
+    .popular-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4px;
+        padding: 4px;
+        gap: 2px;
+        flex: 1;
+    
+    }
+    .popular h1{
+        color: #171717;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .popular hr{
+        width: 200px;
+        height: 2px;
+        border-radius: 10px;
+        background: #252525;
+    }
+    .popular{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        padding: 12px;
+       
+    }
+
+
+} 

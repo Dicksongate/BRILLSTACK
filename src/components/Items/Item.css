@@ -1,0 +1,36 @@
+.item{
+    width: 300px;
+   
+
+}
+.item img{
+    margin-top: 0;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100px;
+    height: 80px;
+    gap: 4px;
+}
+.item p{
+    margin: 6px 0;
+}
+.item-prices{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 10px;
+}
+.item-price-new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.item-price-old{
+    /* color: #8c8c8c; */
+    color: #374151;
+    font-size: 18px;
+    font-weight: 500;
+}

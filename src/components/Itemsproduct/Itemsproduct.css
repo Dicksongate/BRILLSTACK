@@ -1,0 +1,26 @@
+.item-container{
+    display: flex;
+   
+    flex-wrap: wrap;
+    width: 300px;
+   
+
+}
+.item{
+    display: flex;
+    flex-direction: column;
+
+}
+.item img{
+    margin-top: 0;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100px;
+    height: 80px;
+    gap: 4px;
+}
+.item p{
+    margin: 6px 0;
+}
