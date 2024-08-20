@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     padding-left: 180px;
     margin: 10px;
     line-height: 1.1;
@@ -36,7 +36,7 @@
 .hand-hand-icon{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 .hand-hand-icon img{
     width: 150px;
@@ -62,6 +62,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 
 }
 .website-latest-btn img{

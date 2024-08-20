@@ -5,6 +5,7 @@ function Otherspage() {
   return (
     <div>
         This is others page
+        OOP!
       
     </div>
   )

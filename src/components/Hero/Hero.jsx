@@ -24,7 +24,7 @@ function Hero() {
 
       </div>
       <div className="hero-right">
-        <img src={websit_logo} alt="" />
+        <img src={websit_logo} alt="" style={{width:'200px',height:'150px'}} />
         
       </div>
       

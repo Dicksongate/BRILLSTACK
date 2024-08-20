@@ -68,6 +68,7 @@
     color: #626262;
     font-size: 20px;
     font-weight: 500;
+    flex-wrap: wrap;
  
 }
 .nav-menu li{   
@@ -94,7 +95,7 @@
     background: green;
     color: white;
 }
- @media (min-width:992px) {
+ /* @media (min-width:992px) {
     .navbar{
         display: flex;
         justify-content: space-around;
@@ -262,4 +263,4 @@
     
  
     
-} 
+}  */

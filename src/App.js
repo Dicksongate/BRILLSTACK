@@ -13,6 +13,7 @@ import Product from './pages/Product';
 import Cart from './pages/Cart';
 import LoginSignup from './pages/LoginSignup';
 import Video from './pages/Video';
+import Websitepage from './components/Websitepage/Websitepage';
 import Others from './pages/Others';
 import Footer from './components/Footer/Footer';
 // import menu_banner from './components/Assets/menu_banner.jpg'
@@ -33,6 +34,7 @@ function App() {
         <Route path='/resources' element={<Resources/>}/>
         <Route path='/videos' element={<Video/>}/>
         <Route path='/others' element={<Others/>}/>
+        <Route path='/websitepage' element={<Websitepage/>}/>
         <Route path='/product' element={<Product/>}>  
        
             <Route path=':productId' element={<Product/>}/>
