@@ -3,13 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
-    flex-wrap: wrap;
+    margin-bottom: 50px;  
     margin-top: 50px;
 }
 .addrress{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 40px;
 }
 .addrress h1{
