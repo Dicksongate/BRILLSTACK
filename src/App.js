@@ -14,6 +14,7 @@ import Cart from './pages/Cart';
 import LoginSignup from './pages/LoginSignup';
 import Video from './pages/Video';
 import Code from './pages/Code';
+import Editing from './pages/Editing';
 import Websitepage from './components/Websitepage/Websitepage';
 import Others from './pages/Others';
 import Footer from './components/Footer/Footer';
@@ -36,6 +37,7 @@ function App() {
         <Route path='/videos' element={<Video/>}/>
         <Route path='/others' element={<Others/>}/>
         <Route path='/codepage' element={<Code/>}/>
+        <Route path='/editing' element={<Editing/>}/>
         <Route path='/websitepage' element={<Websitepage/>}/>
         <Route path='/product' element={<Product/>}>  
        

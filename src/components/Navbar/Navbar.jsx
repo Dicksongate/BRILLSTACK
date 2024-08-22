@@ -19,6 +19,7 @@ export default function Navbar() {
         <li onClick={()=>{setMenu("contact")}}><Link style={{textDecoration: 'none'}} to='/contact'>contact</Link>{menu==="contact"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("about")}}><Link style={{textDecoration: 'none'}} to='/about'>about</Link>{menu==="about"?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu("product")}}><Link style={{textDecoration: 'none'}} to='/product'>product</Link>{menu==="product"?<hr/>:<></>}</li>        
+        <li onClick={()=>{setMenu("editingpage")}}><Link style={{textDecoration: 'none'}} to='/editing'>video editing</Link>{menu==="editingpage"?<hr/>:<></>}</li>        
         <li onClick={()=>{setMenu("codepage")}}><Link style={{textDecoration: 'none'}} to='/codepage'>coding training</Link>{menu==="codepage"?<hr/>:<></>}</li>        
         <li onClick={()=>{setMenu("websitepage")}}><Link style={{textDecoration: 'none'}} to='/websitepage'>Website</Link>{menu==="websitepage"?<hr/>:<></>}</li>        
         <li onClick={()=>{setMenu("resources")}}><Link style={{textDecoration: 'none'}} to='/resources'>resouces</Link>{menu==="resources"?<hr/>:<></>}</li>        

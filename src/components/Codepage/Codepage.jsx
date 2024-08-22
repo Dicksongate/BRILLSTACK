@@ -8,8 +8,7 @@ function Codepage() {
         <h1>Coding Training Price Category</h1>
         <hr/>
       <div className="code">        
-        <div className="basic-computer">
-        
+        <div className="basic-computer">        
             <h2>Basic Computer Training</h2>
             <p>&#8358;80000</p>
         </div>
