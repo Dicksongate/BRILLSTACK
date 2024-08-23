@@ -28,7 +28,7 @@ function Footer() {
 
         </div>
         <div className="footer-icons-container">
-            <a href='https://web.facebook.com/acadsoftware/?viewas=100000686899395' target='_blank' rel='noreferrer'><img src={facebook_icon} alt="" /></a>           
+            <a href='https://web.facebook.com/acadsoftware' target='_blank' rel='noreferrer'><img src={facebook_icon} alt="" /></a>           
                      
 
         </div>

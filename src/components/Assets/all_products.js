@@ -173,7 +173,7 @@ let all_product = [
         name: 'Microphone',
         category: 'accessory',
         image:mic,
-        price: 80000,
+        price: 30000,
        
     },
     {
@@ -197,7 +197,7 @@ let all_product = [
         name: 'Projector',
         category: 'projector',
         image:projector,
-        price: 50,
+        price: 150000,
         
     },
     {
@@ -205,7 +205,7 @@ let all_product = [
         name: 'Mp3 Player',
         category: 'accessory',
         image:mp3,
-        price: 50,
+        price: 20000,
         
     },
     {
@@ -213,7 +213,7 @@ let all_product = [
         name: 'Remote controls',
         category: 'accessory',
         image:remote,
-        price: 50000,
+        price: 10000,
         
     },
 ];
