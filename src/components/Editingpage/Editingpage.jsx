@@ -26,7 +26,7 @@ function Editingpage() {
           </ol>
           <div className="xample-video">
             <h1>Video Example</h1>
-            <video src={video} style={{width:'350px',height:'250px'}} controls></video>
+            <video src={video} style={{width:'350px',height:'250px'}} controls className='video'></video>
           </div>   
 
 

@@ -1,11 +1,11 @@
 import React from 'react'
 import './Footer.css'
 import footer_logo from '../Assets/hand.jpg'
-import instagram_logo from '../Assets/instagram.jpg'
 import facebook_icon from '../Assets/facebook.jpg'
 import watsapp_icon from '../Assets/watsapp.jpg'
 import youtube_icon from '../Assets/youtube.jpg'
 import logo from '../Assets/logo1.png'
+import telegram from '../Assets/images/telegram.jpg'
 import { Link } from 'react-router-dom'
 
 function Footer() {
@@ -24,7 +24,7 @@ function Footer() {
        </ul>
        <div className="footer-social-icon">
         <div className="footer-icons-container">
-            <img src={instagram_logo} alt="" />        
+           <a href="https://t.me/+2348111145892" target='_blank' rel='noreferrer'><img src={telegram} alt="" /></a>                   
 
         </div>
         <div className="footer-icons-container">

@@ -11,3 +11,8 @@
     justify-content: center;
     margin: 10px;
 }
+.video{
+    width: 330px;
+    height: 230px;
+    border-radius: 15px;
+}

@@ -18,6 +18,7 @@ import Editing from './pages/Editing';
 import Websitepage from './components/Websitepage/Websitepage';
 import Others from './pages/Others';
 import Footer from './components/Footer/Footer';
+
 // import menu_banner from './components/Assets/menu_banner.jpg'
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
         <Route path='/resources' element={<Resources/>}/>
         <Route path='/videos' element={<Video/>}/>
         <Route path='/others' element={<Others/>}/>
-        <Route path='/codepage' element={<Code/>}/>
+        <Route path='/codepage' element={<Code/>}/>       
         <Route path='/editing' element={<Editing/>}/>
         <Route path='/websitepage' element={<Websitepage/>}/>
         <Route path='/product' element={<Product/>}>  
