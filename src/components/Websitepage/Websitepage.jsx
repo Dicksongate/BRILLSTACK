@@ -17,7 +17,7 @@ function Websitepage() {
         </div>
         <div className="ecom-page">
         <h1>E-commerce Website</h1>
-        <p>&#8358;1200000</p>
+        <p>&#8358;800000</p>
         </div>
       </div>
     </div>
